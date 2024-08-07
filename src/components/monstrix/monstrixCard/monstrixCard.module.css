@@ -5,9 +5,10 @@
  *   '
  *   monstrixCard.module.scss 1:9  root stylesheet */
 
+ @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
+  font-family: 'Pixelify Sans', monospace;
   white-space: pre;
   display: block;
   padding: 1em;

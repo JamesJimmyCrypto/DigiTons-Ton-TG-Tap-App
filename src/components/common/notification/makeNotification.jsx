@@ -21,12 +21,12 @@ const Notification = ({variant, text}) => {
 		<div>
 			{variant === 'error' &&
 				<div className={cn(styles.error, styles.notification_wrapper)}>
-					{lg === 'ru' ? 'Ошибка:' : 'Error:'} {text}
+					Error: {text}
 				</div>
 			}
 			{variant === 'success' &&
 				<div className={cn(styles.success, styles.notification_wrapper)}>
-					{lg === 'ru' ? 'Успешно:' : 'Successfully:'} {text}
+					Success: {text}
 				</div>
 			}
 		</div>

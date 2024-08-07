@@ -11,7 +11,7 @@ body {
   background-image: url('../assets/images/background.jpg');
   background-size: cover;
   color: $secondary-color-100;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Pixelify Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -34,6 +34,5 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Pixelify Sans";
 }

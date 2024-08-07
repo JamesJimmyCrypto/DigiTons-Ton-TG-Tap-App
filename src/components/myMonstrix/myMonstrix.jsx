@@ -13,13 +13,13 @@ function MyMonstrix(props) {
 
 	const CardModal = makeModal(MonstrixCard,
 		{green: {status: false,}, red: {status: false,}, close: true},
-		(lg === 'ru' ? 'Карта монстра' : 'Monstrix Card'), setCardIsOpen);
+		("Digiton Card"), setCardIsOpen);
 
 	return (
 		<div>
 			{cardIsOpen && <CardModal id={idOpenCard} isMyMonster={true}/> }
 
-			<div className={styles.title}>{lg === 'ru' ? 'Мои монстры' : 'My monstrix'}</div>
+			<div className={styles.title}>My Digitons</div>
 			<div className={styles.monstrix_container}>
 				{myMonstrix.map(item =>
 					<div

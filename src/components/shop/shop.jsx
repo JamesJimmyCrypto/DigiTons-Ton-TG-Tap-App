@@ -22,21 +22,21 @@ function Shop(props) {
 
 	const MyMonsterCardModal = makeModal(MonstrixCard,
 		{green: {status: false,}, red: {status: false,}, close: true},
-		(lg === 'ru' ? 'Карта монстра' : 'Monstrix Card'), setMyCardIsOpen);
+		("DigiTon Card"), setMyCardIsOpen);
 
 	const CardModal = makeModal(MonstrixCard,
-		{green: {status: true, text: lg === 'ru' ? `Купить за ${allMonstrix.find(elem => elem.id === idOpenCard)?.cost} монет` : `Buy for ${allMonstrix.find(elem => elem.id === idOpenCard)?.cost} coins`},
+		{green: {status: true, text: lg === 'ru' ? `Buy for ${allMonstrix.find(elem => elem.id === idOpenCard)?.cost} TON` : `Buy for ${allMonstrix.find(elem => elem.id === idOpenCard)?.cost} coins`},
 			red: {status: false,}, close: true},
-		(lg === 'ru' ? 'Карта монстра' : 'Monstrix Card'),
+		("Digiton Card"),
 		setCardIsOpen, () => {
 			let thisMonster = allMonstrix.find(elem => elem.id === idOpenCard);
 			if (coins < thisMonster.cost){
-				setNotification(dispatch, 'error', (lg === 'ru' ? 'не хватает монет' : 'not enough coins'));
+				setNotification(dispatch, 'error', ('not enough coins'));
 				setCardIsOpen(false);
 			}
 			else{
 				dispatch(setCoins({coins: coins - thisMonster.cost}));
-				setNotification(dispatch, 'success', (lg === 'ru' ? 'вы купили этого монстра!' : 'You bought this monster!'));
+				setNotification(dispatch, 'success', ('You bought a new DigiTon!'));
 				setCardIsOpen(false);
 				dispatch(addNewMonster({id: thisMonster.id}));
 			}

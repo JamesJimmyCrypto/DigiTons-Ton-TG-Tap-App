@@ -14,6 +14,16 @@ Many people know the "Pokémon" universe, so, I decided to make some kind of ana
 
 ---
 
+## Introducing Digitons
+
+Digitons are the new playable monsters on the TON blockchain. This play-to-earn game allows you to earn rewards by playing and engaging with the game.
+
+- Digitons can be fought, tamed, and upgraded just like other monsters.
+- Earn in-game currency and rewards by participating in battles and completing challenges.
+- The game leverages the TON blockchain for secure and transparent transactions.
+
+---
+
 ## Screenshots:
 
 *I'll leave some introductory screenshots from the game here.*
@@ -36,27 +46,3 @@ Many people know the "Pokémon" universe, so, I decided to make some kind of ana
 </details>
 
 ---
-
-## Start-up instructions
-
-*You can view the finished version of the site by clicking on the link:* 
-https://lenkinma.github.io/Monstrix_React_game/
-
-#### If you want to run the site on your computer, follow these instructions:
-1. Make sure you have an LTS version of Node.js installed on your computer.
-   [Download and install](https://nodejs.org/) it if necessary.
-2. Clone this repository.
-3. Using the terminal or IDE, navigate to the project folder.
-4. Install the project's base dependencies with the `npm install` command.
-5. Start the application by executing the `npm start` command.
-6. Done! Go to the following address in your browser: [http://localhost:3000](http://localhost:3000).
-
----
-
-### Any questions? My contacts:
-<a href="https://vk.com/lenkinma">
-	<img src="https://img.shields.io/badge/-VK-090909?style=for-the-badge&logo=VK&logoColor=0077FF" alt="Vk"/>
-</a>
-<a href="https://t.me/lenkinmax">
-	<img src="https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=Telegram&logoColor=26A5E4" alt="Telegram"/>
-</a>

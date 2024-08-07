@@ -10,7 +10,7 @@ function Header(props) {
 	return (
 		<div className={styles.header}>
 			<div className={styles.user}><AiOutlineUser /> {name}</div>
-			<div>MONSTRIX</div>
+			<div>DIGITONS</div>
 			<div className={styles.coins}>
 				<div className={styles.coins_count}>{coins}</div>
 				<ImCoinDollar />
